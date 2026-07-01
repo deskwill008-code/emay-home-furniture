@@ -1,0 +1,68 @@
+[
+  {
+    "id": "test-001",
+    "customerName": "James Robertson",
+    "company": "Robertson Home Furnishings",
+    "country": "Australia",
+    "position": "Purchasing Director",
+    "content": "We have been sourcing from HomeStyle for 6 years now. Their quality consistency is exceptional, and their team always goes above and beyond to meet our custom requirements. The OEM service has helped us build a strong private label brand in the Australian market.",
+    "photo": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150",
+    "rating": 5,
+    "published": true
+  },
+  {
+    "id": "test-002",
+    "customerName": "Marie Dubois",
+    "company": "Maison Décor SAS",
+    "country": "France",
+    "position": "CEO",
+    "content": "HomeStyle's attention to product quality and packaging standards has made them our #1 supplier for the French market. Their products meet EU safety standards without any issues, which is critical for our compliance requirements.",
+    "photo": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150",
+    "rating": 5,
+    "published": true
+  },
+  {
+    "id": "test-003",
+    "customerName": "David Kim",
+    "company": "KorFurn Distribution",
+    "country": "South Korea",
+    "position": "Import Manager",
+    "content": "We import 3 containers monthly from HomeStyle. Their production capacity, lead time adherence, and communication are all top-tier. The new standing desk line has been a bestseller for us in the Korean market.",
+    "photo": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=150",
+    "rating": 5,
+    "published": true
+  },
+  {
+    "id": "test-004",
+    "customerName": "Ahmed Al-Rashid",
+    "company": "Gulf Home Solutions",
+    "country": "UAE",
+    "position": "Operations Manager",
+    "content": "HomeStyle provided us with custom designs for the Gulf market including specific dimensions and climate-appropriate materials. Their flexibility and professionalism make them stand out from other Chinese manufacturers we have worked with.",
+    "photo": "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=150",
+    "rating": 5,
+    "published": true
+  },
+  {
+    "id": "test-005",
+    "customerName": "Sarah Thompson",
+    "company": "Workspace Solutions Ltd",
+    "country": "United Kingdom",
+    "position": "Head of Procurement",
+    "content": "After visiting the factory in Foshan, we were extremely impressed by their production standards and quality control processes. We have since grown our order volume by 300% in 2 years. Highly recommended for serious B2B buyers.",
+    "photo": "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=150",
+    "rating": 5,
+    "published": true
+  },
+  {
+    "id": "test-006",
+    "customerName": "Carlos Mendez",
+    "company": "Hogar Moderno SA",
+    "country": "Mexico",
+    "position": "Owner",
+    "content": "HomeStyle helped us enter the Mexican furniture market with a competitive product line. Their Spanish-language support and understanding of Latin American consumer preferences was impressive for a Chinese manufacturer.",
+    "photo": "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=150",
+    "rating": 4,
+    "published": true
+  }
+]

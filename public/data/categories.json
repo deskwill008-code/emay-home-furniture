@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cat-001",
+    "name": "Computer Desks",
+    "slug": "computer-desks",
+    "description": "Ergonomic and stylish computer desks designed for modern home offices and workspaces. Available in various sizes, materials, and configurations.",
+    "coverImage": "https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "seoTitle": "Computer Desks - B2B Wholesale | HomeStyle Furniture",
+    "seoDescription": "Source high-quality computer desks wholesale. MOQ available. OEM/ODM welcome. ISO certified manufacturer.",
+    "productCount": 12,
+    "published": true
+  },
+  {
+    "id": "cat-002",
+    "name": "Ergonomic Chairs",
+    "slug": "ergonomic-chairs",
+    "description": "Professional ergonomic office and gaming chairs engineered for comfort, posture support, and long-hour use in office environments.",
+    "coverImage": "https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "seoTitle": "Ergonomic Chairs - B2B Wholesale | HomeStyle Furniture",
+    "seoDescription": "Wholesale ergonomic office chairs with lumbar support. Custom branding available. Factory direct pricing.",
+    "productCount": 8,
+    "published": true
+  },
+  {
+    "id": "cat-003",
+    "name": "Coffee Tables",
+    "slug": "coffee-tables",
+    "description": "Elegant and functional coffee tables for living rooms, featuring premium materials including solid wood, tempered glass, and metal frames.",
+    "coverImage": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "seoTitle": "Coffee Tables - B2B Wholesale | HomeStyle Furniture",
+    "seoDescription": "Premium coffee tables for wholesale buyers. Solid wood, glass, and metal options. OEM manufacturing available.",
+    "productCount": 10,
+    "published": true
+  },
+  {
+    "id": "cat-004",
+    "name": "Book Cabinets",
+    "slug": "book-cabinets",
+    "description": "Versatile and stylish book cabinets and bookshelves for home offices, living rooms, and study rooms. Customizable sizes and finishes.",
+    "coverImage": "https://images.pexels.com/photos/1370296/pexels-photo-1370296.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "seoTitle": "Book Cabinets & Bookshelves - B2B Wholesale | HomeStyle Furniture",
+    "seoDescription": "Wholesale book cabinets and bookshelves. Multiple styles and finishes. Custom OEM orders accepted.",
+    "productCount": 9,
+    "published": true
+  },
+  {
+    "id": "cat-005",
+    "name": "Living Room Storage",
+    "slug": "living-room-storage",
+    "description": "Complete living room storage solutions including TV stands, display cabinets, sideboards, and multi-functional storage units.",
+    "coverImage": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "seoTitle": "Living Room Storage - B2B Wholesale | HomeStyle Furniture",
+    "seoDescription": "Wholesale living room storage furniture. TV stands, sideboards, display cabinets. Factory direct pricing.",
+    "productCount": 14,
+    "published": true
+  },
+  {
+    "id": "cat-006",
+    "name": "Non-woven Storage Cabinets",
+    "slug": "non-woven-storage-cabinets",
+    "description": "Lightweight and affordable non-woven fabric storage cabinets, wardrobes, and organizers ideal for bedrooms and e-commerce.",
+    "coverImage": "https://images.pexels.com/photos/5824898/pexels-photo-5824898.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "seoTitle": "Non-woven Storage Cabinets - B2B Wholesale | HomeStyle Furniture",
+    "seoDescription": "Non-woven fabric storage cabinets wholesale. Amazon/Walmart supplier. Low MOQ. Private label available.",
+    "productCount": 7,
+    "published": true
+  }
+]

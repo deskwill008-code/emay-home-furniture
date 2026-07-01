@@ -1,0 +1,23 @@
+{
+  "name": "HomeStyle Furniture Co., Ltd.",
+  "tagline": "Premium B2B Home Furniture Manufacturer",
+  "description": "Leading manufacturer of high-quality home furniture for international distributors, wholesalers, and OEM/ODM partners since 2005.",
+  "logo": "/uploads/logos/logo.svg",
+  "favicon": "/favicon.ico",
+  "phone": "+86 755 1234 5678",
+  "email": "sales@homestylefurniture.com",
+  "whatsapp": "+8613800138000",
+  "address": "No. 88 Industrial Avenue, Foshan, Guangdong, China 528000",
+  "googleMaps": "https://maps.google.com/?q=Foshan+Guangdong+China",
+  "founded": "2005",
+  "employees": "500+",
+  "factorySize": "50,000 m²",
+  "annualOutput": "200,000+ pieces",
+  "exportCountries": "60+",
+  "facebook": "https://facebook.com/homestylefurniture",
+  "linkedin": "https://linkedin.com/company/homestylefurniture",
+  "youtube": "https://youtube.com/@homestylefurniture",
+  "certifications": ["ISO 9001:2015", "BSCI", "FSC", "CARB", "CE"],
+  "paymentTerms": "T/T, L/C, Western Union",
+  "mainMarkets": ["North America", "Europe", "Australia", "Middle East", "Southeast Asia"]
+}

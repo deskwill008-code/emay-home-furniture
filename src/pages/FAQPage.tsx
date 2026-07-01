@@ -1,0 +1,128 @@
+import { useState } from 'react';
+import SEO from '../components/SEO';
+import Breadcrumb from '../components/ui/Breadcrumb';
+import { ChevronDown, ChevronUp, ArrowRight, MessageCircle } from 'lucide-react';
+
+const FAQ_DATA = [
+  {
+    category: 'Ordering & MOQ',
+    items: [
+      { q: 'What is the minimum order quantity (MOQ)?', a: 'MOQ varies by product: upholstered chairs typically start at 50–100 pcs, flat-pack furniture 30–100 pcs, non-woven products 200+ pcs. Contact us for specific product MOQs.' },
+      { q: 'Can I mix different products in one container?', a: 'Yes. We accept mixed container orders. The total container value should meet our minimum threshold of approximately $8,000–15,000 USD per shipment.' },
+      { q: 'Do you offer sample orders before bulk purchase?', a: 'Yes. We provide product samples for evaluation at retail rates (no MOQ). Sample costs are fully credited against your first bulk order of 50+ units.' },
+      { q: 'What payment terms do you accept?', a: 'Standard: 30% T/T deposit + 70% balance before shipment. Established clients may use L/C at sight. Western Union accepted for sample orders.' },
+    ],
+  },
+  {
+    category: 'OEM & Customization',
+    items: [
+      { q: 'Can you produce with our brand logo?', a: 'Yes. Full OEM/ODM service including custom branding on products, packaging, and catalogs. Provide your logo files (AI/PDF/EPS) and we handle everything.' },
+      { q: 'Can you customize dimensions, colors, or materials?', a: 'Yes, with sufficient MOQ (typically 100+ pcs for a custom spec). We can modify dimensions, finishes, hardware, and materials. Custom development takes 30–45 days.' },
+      { q: 'Do you have in-house design capabilities?', a: 'Yes. Our R&D team of 20+ designers develops products from your sketches, reference samples, or design briefs. Development cost is quoted separately and credited against bulk orders.' },
+    ],
+  },
+  {
+    category: 'Quality & Certifications',
+    items: [
+      { q: 'What quality certifications do you hold?', a: 'We are ISO 9001:2015, BSCI, FSC, and CARB Phase 2 certified. All products are tested to BIFMA, EN, and ASTM standards by SGS and Intertek.' },
+      { q: 'Can we arrange third-party inspection?', a: 'Absolutely. We fully cooperate with SGS, BV, Intertek, and TÜV. Please arrange at least 3 working days before planned shipment date.' },
+      { q: 'What formaldehyde emission standards do you comply with?', a: 'All MDF and particleboard products meet E1 emission standards. CARB Phase 2 compliant products for the US market are available with advance specification.' },
+    ],
+  },
+  {
+    category: 'Shipping & Logistics',
+    items: [
+      { q: 'What are the typical production lead times?', a: 'Standard products: 30–45 days. Custom color/finish: 40–55 days. Electric/motorized products: 40–60 days. Rush orders may be possible for established clients.' },
+      { q: 'What Incoterms do you offer?', a: 'We ship FOB Guangzhou, Shenzhen, or Hong Kong port. CIF to your destination port is available through our freight forwarding partners.' },
+      { q: 'How is furniture packaged for export?', a: 'All products use 5-ply export carton with foam corner protection and individual wrapping for fragile parts. Packaging meets ISTA 1A and 2A drop-test standards.' },
+    ],
+  },
+];
+
+function FAQItem({ q, a }: { q: string; a: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className={`border rounded-2xl overflow-hidden transition-all duration-200 ${open ? 'border-amber-200 shadow-sm' : 'border-slate-100 bg-white hover:border-slate-200'}`}>
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between px-5 py-4 text-left"
+        aria-expanded={open}
+      >
+        <span className={`font-semibold text-sm leading-snug pr-4 transition-colors ${open ? 'text-amber-700' : 'text-slate-800'}`}>
+          {q}
+        </span>
+        <span className={`flex-shrink-0 w-7 h-7 rounded-lg flex items-center justify-center transition-colors ${open ? 'bg-amber-100' : 'bg-slate-100'}`}>
+          {open
+            ? <ChevronUp size={14} className="text-amber-600" />
+            : <ChevronDown size={14} className="text-slate-500" />
+          }
+        </span>
+      </button>
+      {open && (
+        <div className="px-5 pb-5">
+          <p className="text-sm text-slate-600 leading-relaxed">{a}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function FAQPage() {
+  return (
+    <>
+      <SEO
+        title="FAQ — Frequently Asked Questions | HomeStyle B2B Furniture Manufacturer"
+        description="Answers to MOQ, OEM/ODM, quality certifications, shipping, and ordering questions for international furniture buyers and distributors."
+      />
+      <div className="bg-slate-50 min-h-screen">
+        <div className="bg-white border-b border-slate-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <Breadcrumb crumbs={[{ label: 'FAQ' }]} />
+            <h1 className="text-3xl font-black text-slate-900 mt-3">Frequently Asked Questions</h1>
+            <p className="text-slate-500 text-sm mt-1">Common questions from our international buyers and distributors.</p>
+          </div>
+        </div>
+
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="space-y-10">
+            {FAQ_DATA.map((section) => (
+              <div key={section.category}>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="w-1 h-6 bg-amber-500 rounded-full" />
+                  <h2 className="font-black text-slate-800 text-base">{section.category}</h2>
+                </div>
+                <div className="space-y-2.5">
+                  {section.items.map((item) => (
+                    <FAQItem key={item.q} q={item.q} a={item.a} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* CTA */}
+          <div className="mt-14 bg-amber-50 border border-amber-100 rounded-3xl p-8 text-center">
+            <h3 className="text-xl font-black text-slate-800 mb-2">Still have questions?</h3>
+            <p className="text-slate-500 text-sm mb-6 max-w-sm mx-auto">
+              Our sales team is happy to answer any specific questions about your requirements.
+            </p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <a href="/contact" className="btn-primary text-sm">
+                Contact Us <ArrowRight size={15} />
+              </a>
+              <a
+                href="https://wa.me/8613800138000"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-5 py-2.5 bg-green-500 hover:bg-green-600 text-white font-bold text-sm rounded-xl transition-colors"
+              >
+                <MessageCircle size={15} />
+                WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

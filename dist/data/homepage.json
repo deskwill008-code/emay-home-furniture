@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "badge": "ISO 9001 Certified Manufacturer",
+    "headline": "Premium Home Furniture",
+    "headlineHighlight": "Manufacturer",
+    "subheadline": "for Global Distributors",
+    "description": "Partner with HomeStyle Furniture — China's trusted B2B manufacturer of computer desks, ergonomic chairs, coffee tables, and storage solutions. OEM/ODM available. 60+ countries served.",
+    "primaryCTA": { "label": "Browse Products", "href": "/products" },
+    "secondaryCTA": { "label": "Request a Quote", "href": "/contact" },
+    "image": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "stats": [
+      { "value": "19+", "label": "Years Experience" },
+      { "value": "60+", "label": "Countries Served" },
+      { "value": "500+", "label": "Team Members" },
+      { "value": "200K+", "label": "Annual Output" }
+    ]
+  },
+  "whyChooseUs": {
+    "headline": "Why Global Buyers Choose HomeStyle",
+    "subheadline": "Trusted by 500+ distributors across 60 countries for quality, reliability, and partnership.",
+    "reasons": [
+      {
+        "icon": "shield",
+        "title": "ISO 9001 Certified",
+        "description": "Rigorous quality management system ensures consistent product quality across every batch."
+      },
+      {
+        "icon": "factory",
+        "title": "50,000 m² Factory",
+        "description": "State-of-the-art manufacturing facility with full in-house production capabilities."
+      },
+      {
+        "icon": "settings",
+        "title": "OEM / ODM Services",
+        "description": "Full custom manufacturing with your brand, designs, and specifications. No order too unique."
+      },
+      {
+        "icon": "clock",
+        "title": "On-Time Delivery",
+        "description": "98.5% on-time delivery rate backed by dedicated production scheduling and logistics coordination."
+      },
+      {
+        "icon": "globe",
+        "title": "Global Export Experience",
+        "description": "Experienced with all major import regulations including US, EU, Australian, and GCC market requirements."
+      },
+      {
+        "icon": "headphones",
+        "title": "Dedicated Support",
+        "description": "Dedicated account managers available via email, WhatsApp, and video call for every client."
+      }
+    ]
+  },
+  "factory": {
+    "headline": "State-of-the-Art Manufacturing",
+    "subheadline": "Visit our 50,000 m² facility in Foshan, Guangdong — the furniture capital of the world.",
+    "description": "Founded in 2005, our factory combines traditional craftsmanship with modern CNC technology, automated finishing lines, and rigorous quality control at every stage of production.",
+    "stats": [
+      { "value": "50,000 m²", "label": "Factory Area" },
+      { "value": "200,000+", "label": "Pieces/Year" },
+      { "value": "98.5%", "label": "On-Time Rate" },
+      { "value": "0.3%", "label": "Defect Rate" }
+    ],
+    "image": "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  "process": {
+    "headline": "From Concept to Container",
+    "subheadline": "Our streamlined production process ensures quality at every step.",
+    "steps": [
+      { "step": "01", "title": "Inquiry & Quotation", "description": "Submit your requirements. Receive a detailed quotation within 24 hours." },
+      { "step": "02", "title": "Sample Development", "description": "We develop samples to your specifications for approval before bulk production." },
+      { "step": "03", "title": "Production", "description": "Full-scale manufacturing with quality checks at every production stage." },
+      { "step": "04", "title": "QC Inspection", "description": "Pre-shipment inspection by our QC team. Third-party inspection available." },
+      { "step": "05", "title": "Export & Shipping", "description": "Professional export packing, booking, and shipping documentation." },
+      { "step": "06", "title": "After-Sales Support", "description": "Dedicated after-sales service to ensure your complete satisfaction." }
+    ]
+  },
+  "certifications": {
+    "headline": "Certified Quality You Can Trust",
+    "subheadline": "Our certifications reflect our commitment to quality, safety, and ethical manufacturing.",
+    "items": [
+      { "name": "ISO 9001:2015", "description": "Quality Management System" },
+      { "name": "BSCI", "description": "Social Compliance" },
+      { "name": "FSC", "description": "Sustainable Forestry" },
+      { "name": "CARB", "description": "California Air Resources Board" },
+      { "name": "CE", "description": "European Conformity" }
+    ]
+  },
+  "catalogCTA": {
+    "headline": "Download Our Full Product Catalog",
+    "subheadline": "Get instant access to our complete product range with specifications, pricing guidelines, and MOQ details.",
+    "buttonLabel": "Download Free Catalog",
+    "href": "/catalogs"
+  },
+  "contactCTA": {
+    "headline": "Ready to Start Your Order?",
+    "subheadline": "Contact our sales team today for a personalized quotation and product recommendations.",
+    "primaryCTA": { "label": "Request a Quote", "href": "/contact" },
+    "secondaryCTA": { "label": "WhatsApp Us", "href": "https://wa.me/8613800138000" }
+  }
+}
